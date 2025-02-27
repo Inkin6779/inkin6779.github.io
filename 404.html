@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="20J8Oifs9LxokXTLlqq89TJzl6fuISlU0uCkMpqVBUA" />
+    <link rel="shortcut icon" type="image/jpeg" href="https://raw.githubusercontent.com/Inkin6779/project-school-stash/main/download.jpg"/>
+    <audio id="myAudio" autoplay>
+        <source src="https://raw.githubusercontent.com/Inkin6779/project-school-stash/main/audio404.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    <title>Inkin6779's Site</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var audio = document.getElementById('myAudio');
+          audio.muted = true; // Mute the audio to bypass autoplay restriction
+          audio.play().then(function() {
+            audio.muted = false; // Unmute after playing
+          }).catch(function(error) {
+            console.log('Playback failed:', error);
+          });
+        });
+      </script>
+</head>
+<body>
+    <header>
+        <div style="text-align: center;">
+          <p><a href="https://www.youtube.com/watch?v=4MikS41OTvs">Sound Playing: Sonic 2 Game Over</a></p>
+            <h1>We ran into a problem :(</h1>
+            <h2>Looks like... Error 404</h2>
+            <p>The site you went to either doesn't exist, is being worked on, or I screwed something up.</p>
+            <button onclick="window.location.href='github.com/Inkin6779/project-school-stash/actions';">Make sure top light is green if you are adding something new.</button>
+        </div>
+    </header>
+    <footer>
+        <div style="text-align: center;">
+            <p>_____________</p>
+          <button onclick="window.location.href='/project-school-stash/';">Return to Home</button>
+    </footer>
+</body>
+</html>
